@@ -1,0 +1,75 @@
+# Reference:
+#   https://gist.github.com/octocat/9257657
+#   https://www.toptal.com/developers/gitignore
+
+# Project-specific rules
+
+
+# Temporary files
+temp*.*
+*.pickle
+
+# Global
+.cache/
+*.bak
+*.orig
+
+# Security
+*secret*.*
+*credential*.*
+.aws/
+.ssh/
+.env
+.netrc
+
+# OS-generated
+.DS_Store
+.DS_Store?
+._*
+Icon?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.stackdump
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Logs & databases
+*.log
+*.sql
+*.sqlite
+
+# Vim
+*.sw[abcdefghijklmnop]
+
+# Sublime
+
+# Management
+.git/
+.vscode/
+!.vscode/*.code-snippets
+tempCodeRunnerFile*
+.idea/
+*.sublime*
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints
+poetry.lock
+profile_default/
+ipython_config.py
+
+# Compiles sources
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
